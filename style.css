@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    height: 75px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+}
+nav p {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: sans-serif;
+    align-self: center;
+    display: inline;
+    margin-left: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    border-left: 2px solid grey;
+    border-bottom: 2px solid grey;
+    border-right: 2px solid white;
+    border-top: 2px solid white;
+}
+
+nav div{
+    align-self: center;
+    display: inline;
+    margin-right: 20px;
+}
+
+nav div button {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: sans-serif;
+    border: none;
+    padding: 5px 10px;
+    align-self: center;
+    display: inline;
+  }
+  
+nav div button:hover {
+    color: grey;
+  }
+  
+nav div button:active {
+    color:blue;
+  }
